@@ -1,0 +1,259 @@
+.containerone {
+    background-image: url(../../img/bgtop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 1.6rem 1.6rem;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 640px;
+    height: 360px;
+}
+
+.content {
+    width: 50%;
+}
+
+.containerthree {
+    border-radius: 2.5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.benefics {
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.benefics:nth-child(1) {
+    margin-right: 0;
+}
+
+.benefics:nth-child(2) {
+    margin-left: 0;
+}
+
+.benefics:nth-child(3) {
+    margin-right: 0;
+}
+
+.benefics:nth-child(4) {
+    margin-left: 0;
+}
+
+.content__benefics {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.content__benefics img {
+    width: fit-content;
+    margin: auto;
+    width: 8rem;
+}
+
+.content__benefics p.text {
+    font-family: var(--font-benefics);
+    font-size: 1.2rem;
+}
+
+.content__what {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.content__what p.text {
+    text-align: initial;
+    align-items: center;
+    font-size: 1.35rem;
+    width: 92%;
+}
+
+.content__what .personage img {
+    width: 22rem;
+    filter: drop-shadow(-15px 30px 100px #fff);;
+}
+
+.cardwhite {
+    border-radius: 1rem;
+}
+
+.containerfive {
+    display: block;
+}
+
+.towertense{
+    display: flex;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.towerlist{
+    height: auto;
+}
+
+.tower{
+    background-color: #79c0bc;
+    width: 3px;
+    height: 96%;
+    transform: matrix(1, 0, 0, 1, 26, 9);
+}
+
+.formationcontent{
+    margin-left: 1rem;
+}
+
+.formationslist{
+    display: flex;
+}
+
+.circlelist{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.circlelist.select{
+    border: 1px solid #000;
+    border-radius: 180px;
+}
+
+.marblelist{
+    background-color: #000;
+    width: 8px;
+    height: 8px;
+    border-radius: 180px;
+    margin: auto;
+}
+
+.paddinglist{
+    padding-bottom: 1.8rem;
+}
+
+.textformation{
+    padding-left: 1rem;
+}
+
+/*TOWER TWO------------------------------------------------------------------------------*/
+
+.towertenseone{
+    display: flex;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.towerlistone{
+    height: auto;
+}
+
+.towerone{
+    background-color: #79c0bc;
+    width: 3px;
+    height: 96%;
+    transform: matrix(1, 0, 0, 1, 26, 9);
+}
+
+.formationcontentone{
+    margin-left: 1rem;
+}
+
+.formationslistone{
+    display: flex;
+}
+
+.circlelistone{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.circlelistone.select{
+    border: 1px solid #000;
+    border-radius: 180px;
+}
+
+.marblelistone{
+    background-color: #000;
+    width: 8px;
+    height: 8px;
+    border-radius: 180px;
+    margin: auto;
+}
+
+.paddinglistone{
+    padding-bottom: 1.8rem;
+}
+
+.textformationone{
+    padding-left: 1rem;
+}
+
+.not_curse {
+    display: flex;
+    align-items: center;
+}
+
+.cardblack__notcontents {
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    max-width: 780px;
+}
+
+.bonus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 1.5rem 0;
+}
+
+.cardblock__bonus {
+    display: grid;
+    height: 100%;
+    width: 70%;
+    padding: 1.5rem 0.5rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.cardblock__bonus:nth-child(1) {
+    margin-right: 0;
+}
+
+.cardblock__bonus:nth-child(3) {
+    margin-left: 0;
+}
+
+.cardblock__bonus i {
+    font-size: 8rem;
+    color: #fff;
+    text-align: center;
+}
+
+footer.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,42 @@
+.button {
+    display: flex;
+    width: fit-content;
+    margin: 1.5rem auto 0 auto;
+    border-radius: 0.8rem;
+}
+
+.button a {
+    margin: auto;
+    padding: 0.6rem 1.5rem;
+}
+
+.button p {
+    font-family: var(--font-button);
+    font-size: var(--size-button);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.button:hover p{
+    letter-spacing: 1px;
+}
+
+.buttonblack {
+    background-color: var(--back-button-black);
+}
+
+.buttonblack a {
+    color: var(--back-button-white);
+}
+
+.buttonwhite {
+    background-color: var(--back-button-white);
+}
+
+.buttonwhite a {
+    color: var(--back-button-black);
+}
+
+footer.container .button {
+    margin-top: 3rem;
+}

@@ -1,0 +1,34 @@
+@import url(./_reset.css);
+@import url(./_font.css);
+@import url(./_variable.css);
+
+html {
+    background-color:  #dbff9f;
+}
+.container {
+    width: 90%;
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.containerletter {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    html {
+        font-size: 87.5%;
+    }
+}

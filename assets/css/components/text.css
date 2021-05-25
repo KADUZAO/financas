@@ -1,0 +1,110 @@
+.containerone .container > p, .containerone .container > h1{
+    color: var(--color-title-white);
+}
+
+.title {
+    font-family: var(--font-title-spotlight);
+    font-size: var(--size-title);
+    text-align: center;
+    max-width: 775px;
+}
+
+.warning {
+    font-family: var(--font-warning);
+    color: var(--color-warning);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.text {
+    font-family: var(--font-text);
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.text__video-bottom {
+    font-size: 1.4rem;
+}
+
+.titleimg  img{
+    width: 100%;
+}
+
+.containerthree > .container > p{
+    color: #fff;
+    max-width: 950px;
+}
+
+h2.title__especial {
+    font-size: 2.5rem;
+    line-height: 36px;
+}
+
+strong.card__text-black {
+    background-color: var(--card-black);
+    padding: 0.2rem;
+    padding-bottom: 0.3rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.title__especial-grande {
+    max-width: 200px;
+    line-height: 36px;
+}
+
+.title__especial-grande strong.card__text-black {
+    padding: 0 0.2rem 0.1rem 0.2rem;
+    font-size: 2.4rem;
+    line-height: 38px;
+}
+
+.curso p.text {
+    font-size: 1.2rem;
+}
+
+.curso .towertense p {
+    font-family: var(--font-text);
+}
+
+.towertenseone p {
+    font-family: var(--font-text);
+}
+
+.curso .towertense strong{
+    font-family: var(--font-benefics);
+}
+
+.text__bonus {
+    margin-top: 0.8rem;
+}
+
+.notcontents p{
+    color: #fff;
+    font-family: var(--font-text);
+    width: 90%;
+    margin: auto;
+}
+
+.bonus p {
+    color: #fff;
+    font-family: var(--font-button);
+}
+
+.cardblock__bonus strong {
+    font-size: 1.4rem;
+}
+
+.content__footer > h2, .content__footer > p {
+    color: #fff;
+}
+
+.content__footer > p {
+    text-align: initial;
+}
+
+.title__border {
+    border: 5px solid #fff;
+    padding: 1.4rem 1rem;
+}

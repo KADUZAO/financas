@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+    .containerletter {
+        flex-direction: column;
+    }
+    
+    .personage img {
+        width: 18rem;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    
+    .titleimg img {
+        display: grid;
+        width: 28rem;
+        margin: auto;
+    }
+
+    .content__what {
+        flex-direction: column;
+    }
+
+    .content__what .personage img {
+        display: grid;
+        margin: auto;
+    }
+
+    .cardblock__bonus {
+        width: 90%;
+    }
+
+    .cardblock__bonus i{
+        font-size: 7rem;
+    }
+
+    .towertense {
+        width: 94%;
+    }
+
+    footer.container {
+        grid-template-columns: 1fr;
+    }
+
+    footer img {
+        width: 16rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:542px) {
+    .warning {
+        font-size: 0.7rem;
+    }
+    #video {
+        width: 100%;
+    }
+    .video {
+        width: 100%;
+        height: 15rem;
+    }
+    .text__video-bottom{
+        font-size: 1rem;
+    }
+    .containerletter .personage {
+        margin-bottom: 5rem;
+    }
+    .titleimg img {
+        width: 100%;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .benefics:nth-child(1) {
+        margin: auto;
+    }
+    .benefics:nth-child(2) {
+        margin: auto;
+    }
+    .benefics:nth-child(3) {
+        margin: auto;
+    }
+    .benefics:nth-child(4) {
+        margin: auto;
+    }
+    .content__what p.text {
+        text-align: center;
+        margin: auto;
+        font-size: 1rem;
+    }
+    .content__what .personage img {
+        width: 16rem;
+        margin-top: 1rem;
+    }
+    .bonus {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .tower {
+        transform: matrix(1, 0, 0, 1, 25, 9);
+    }
+    .cardblock__bonus:nth-child(1) {
+        margin: auto;
+    }
+    .cardblock__bonus:nth-child(2) {
+        margin: auto;
+    }
+    .cardblock__bonus:nth-child(3) {
+        margin: auto;
+    }
+    .cardblock__bonus i {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width:409px) {
+    .video {
+        height: 11.5rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .video {
+        height: 13.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video {
+        height: 11.5rem;
+    }
+}

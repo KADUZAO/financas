@@ -1,0 +1,33 @@
+:root {
+    --color-warning: #8b8b8b;
+    --font-warning: "gotham-light", sans-serif;
+    --card-black: #000;
+    --card-white: #fff;
+    --shadow-persona: 20px 20px 40px rgba(255, 255, 255, 0.582);
+    --back-button-black: #000;
+    --back-button-white: #fff;
+    --font-family-button: "gotham-bold", sans-serif;
+    --size-button: 1.2rem;
+    --size-title: 2.5rem;
+    --color-title-white: #fff;
+    --color-title-black: #000;
+    --color-button-white: #000;
+    --color-button-black: #fff;
+    --font-title-spotlight: "gotham-black", sans-serif;
+    --font-text: "gotham-medium", sans-serif;
+    --font-button: "gotham-bold", sans-serif;
+    --font-benefics: "gotham-black", sans-serif;
+}
+
+@media screen and (max-width:542px) {
+    :root {
+        --size-title: 1.8rem;
+        --size-button: 1rem;
+    }
+}
+
+@media screen and (max-width:409px) {
+    :root {
+        --size-button: 0.9rem;
+    }
+}

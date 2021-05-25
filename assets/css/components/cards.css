@@ -1,0 +1,10 @@
+.cardblack {
+    background-color: var(--card-black);
+}
+
+.cardwhite {
+    display: grid;
+    background-color: var(--card-white);
+    justify-content: center;
+    align-items: center;
+}

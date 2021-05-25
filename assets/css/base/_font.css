@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "gotham-black";
+    src: url(../../fonts/gotham/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: "gotham-bold";
+    src: url(../../fonts/gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: "gotham-light";
+    src: url(../../fonts/gotham/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: "gotham-medium";
+    src: url(../../fonts/gotham/Gotham-Medium.otf);
+}
